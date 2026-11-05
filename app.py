@@ -22,6 +22,7 @@ conn = init_db()
 
 # 2. Page Configuration
 st.set_page_config(page_title="Client Analytics Dashboard", layout="wide")
+st.warning("Public Demo Mode: Do not upload sensitive company data. App resets automatically. Buy the source code to run locally and privately.")
 st.title("📊 Client Analytics Dashboard")
 st.markdown("Automated revenue tracking and visualization.")
 
